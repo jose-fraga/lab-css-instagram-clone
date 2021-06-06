@@ -4,7 +4,99 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, #1c5380 50%, #fff 50%); 
+  background-repeat: no-repeat;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+
+img {
+  height: auto;
+}
+
+h3 {
+  width: 50%;
+  color: #06365f;
+  font-size: 20px;
+}
+
+#section1 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 0%;
+  height: 100%;
+}
+
+#section1-image-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#image-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+#paragraph {
+  background-color: white;
+  padding: 3%;
+  box-shadow: 0 -5px 10px -5px #333;
+  border-radius: 5px;
+}
+
+#column {
+  align-items: center;
+  padding-left: 5%;
+}
+
+.store-images {
+  padding: 2%;
+}
+
+#section2 {
+  padding-top: 5%;
+  width: 40%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 60%;
+  list-style-type: none;
+  color: #1c5380;
+}
+
+#dif-li {
+  color: gray;
+}
+
+button {
+  height: 35%;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  background: linear-gradient(#1c5380, #06365f);
+  border-radius: 5px;
+  border-color: #06365f;
+  box-shadow: none;
+}
+
+button h1 {
+  font-size: 100%;
 }
